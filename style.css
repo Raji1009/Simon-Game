@@ -1,0 +1,54 @@
+body{
+  text-align: center;
+}
+
+.btn{
+  height: 100px;
+  width: 100px;
+  border-radius: 25px;
+  border: 6px solid black;
+  margin: 10px; 
+}
+
+.score{
+  display: flex;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+}
+
+.yellow{
+  background-color: rgb(231, 231, 93);
+}
+
+.red{
+  background-color: rgb(242, 98, 98);
+}
+
+.blue{
+  background-color: rgb(97, 97, 237);
+}
+
+.green{
+  background-color: rgb(97, 224, 97);
+}
+
+.flash{
+  background-color: white;
+}
+
+.userFlash{
+  background-color: rgb(68, 49, 49);
+}
+
+.highscore{
+  border: 1px solid black;
+  height: 50px;
+}
+
+.highscore p{
+  justify-self: flex-start;
+  padding-left: 6px;
+}
